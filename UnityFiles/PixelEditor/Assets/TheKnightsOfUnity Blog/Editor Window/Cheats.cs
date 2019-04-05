@@ -1,8 +1,13 @@
-﻿#if UNITY_EDITOR
+﻿/*
+ * Copyright (c) The Knights of Unity
+ * http://theknightsofunity.com/
+ */
+
+#if UNITY_EDITOR
 using UnityEditor;
 #endif
 
-public class TestWindow
+public class Cheats
 {
     public static bool MuteAllSounds
     {
