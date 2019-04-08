@@ -109,14 +109,14 @@ public class CheatsWindow : EditorWindow
             for (int j = 0; j < y; j++)
             {
                 //Debug.Log(hexColArray[i, j].ToString());
-                Color color;
-
-                if (ColorUtility.TryParseHtmlString("#" + hexColArray[i, j], out color))
-                {
-                    colArray[i, j].r = color.r;
-                    colArray[i, j].g = color.g;
-                    colArray[i, j].b = color.b;
-                }
+                //Color color;
+                //
+                //if (ColorUtility.TryParseHtmlString("#" + hexColArray[i, j], out color))
+                //{
+                //    colArray[i, j].r = color.r;
+                //    colArray[i, j].g = color.g;
+                //    colArray[i, j].b = color.b;
+                //}
                 //    GUI.backgroundColor = colArray[i, j];
                 //if (GUILayout.Button(i.ToString() + j.ToString(), GUILayout.Width(50), GUILayout.Height(50)))
                 //{
