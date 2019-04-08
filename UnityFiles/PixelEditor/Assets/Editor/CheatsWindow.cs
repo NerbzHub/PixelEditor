@@ -117,12 +117,12 @@ public class CheatsWindow : EditorWindow
                 //    colArray[i, j].g = color.g;
                 //    colArray[i, j].b = color.b;
                 //}
-                //    GUI.backgroundColor = colArray[i, j];
-                //if (GUILayout.Button(i.ToString() + j.ToString(), GUILayout.Width(50), GUILayout.Height(50)))
-                //{
-                //    GUI.backgroundColor = Color.blue;
-                //}
-                colArray[i, j] = EditorGUILayout.ColorField(GUIContent.none, colArray[i, j], false, false, false, GUILayout.MaxWidth(20f), GUILayout.MaxHeight(20f));
+                    GUI.backgroundColor = colArray[i, j];
+                if (GUILayout.Button(i.ToString() + j.ToString(), GUILayout.Width(50), GUILayout.Height(50)))
+                {
+                    GUI.backgroundColor = Color.blue;
+                }
+                //colArray[i, j] = EditorGUILayout.ColorField(GUIContent.none, colArray[i, j], false, false, false, GUILayout.MaxWidth(20f), GUILayout.MaxHeight(20f));
 
 
 
